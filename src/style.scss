@@ -13,6 +13,10 @@
       @content;
     }
   }
+  .cha{
+    width: 50px;
+    height: 50px;
+  }
   
   .formContainer {
     background-color: #138d88;
@@ -22,7 +26,7 @@
     justify-content: center;
   
     .formWrapper {
-      background-color: white;
+      background-color: rgb(88, 85, 85);
       padding: 20px 60px;
       border-radius: 10px;
       display: flex;
@@ -38,7 +42,7 @@
       }
   
       .title {
-        color: #22b1af;
+        color: #c3ba15;
         font-size: 12px;
       }
   
@@ -125,7 +129,11 @@
               display: none;
             }
           }
-  
+            .Roy{
+              width: 40px;
+              height: 40px;
+            }
+           
           .user {
             display: flex;
             gap: 10px;
